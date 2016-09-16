@@ -1,0 +1,65 @@
+a:link   {color:blue; background-color:transparent; text-decoration:none}
+a:visited{color:green; background-color:transparent; text-decoration:none}
+a:hover  {text-decoration:underline; background-color:transparent; text-decoration:underline}
+a:active{color:black;background-color:transparent;text-decoration:underline}
+
+div[id="menu"]{
+	visibility:none;
+}
+body {
+	background-color:powderblue;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+ul {
+	background-color: #333333;
+	color:white;
+	padding:0px;
+	margin:0;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+li{
+	float:left;
+	display:block;
+	padding:15px;
+	margin:0px;
+	text-align:center;
+	text-decoration: none;
+}
+
+a.menu{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover{
+	color: #00B4FF;
+}
+
+li:hover{
+	background-color: #111111;
+	transition-duration:0.5s;
+}
+
+img{
+	margin:5px;
+	padding:5px;
+}
+
+bdo{
+	background-color: #333333;
+	margin:15px;
+	color: white;
+	font-size:120%;
+	padding: 5px;
+	transition-duration:0.8s;
+
+}
+bdo:hover{
+	background-color: #111111;
+	transition-duration:0.5s;
+}
