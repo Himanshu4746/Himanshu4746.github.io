@@ -1,11 +1,8 @@
 a:link   {color:blue; background-color:transparent; text-decoration:none}
-a:visited{color:green; background-color:transparent; text-decoration:none}
+a:visited{color:#004D40; background-color:transparent; text-decoration:none}
 a:hover  {text-decoration:underline; background-color:transparent; text-decoration:underline}
 a:active{color:black;background-color:transparent;text-decoration:underline}
 
-div[id="menu"]{
-	visibility:none;
-}
 body {
 	background-color:powderblue;
 	margin-top: 0px;
@@ -13,53 +10,62 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-ul {
-	background-color: #333333;
-	color:white;
+
+#HKS {
+	background-color: #00695C;
+	margin: 0;
+	padding: 1.5%;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.cpb:hover {
+	color: #4DB6AC;
+}
+
+.cg:hover {
+	color: green;
+}
+
+a.ane {
+	text-decoration: none;
+	color: white;
+}
+
+#NaviBar {
+	width:100%;
+	text-align:center;
+    background-color: #333333;
 	padding:0px;
 	margin:0;
 	overflow: hidden;
-	list-style-type: none;
 }
-
-li{
-	float:left;
-	display:block;
-	padding:15px;
-	margin:0px;
-	text-align:center;
+.menu{
+	display: inline-block;
+	padding: 15px 25px;
 	text-decoration: none;
 }
-
-a.menu{
-	text-decoration:none;
-	color:white;
+.menu:hover{
+	background-color: black;
 }
 
-a:hover{
-	color: #00B4FF;
+
+iframe#fb{
+	position:relative;
+    /* top: 0;
+    right: 0; */
 }
 
-li:hover{
-	background-color: #111111;
-	transition-duration:0.5s;
+footer#ftr {
+	background-color: #00BFA5;
+	/* position:absolute; */
+	/* top: 100%; */
+	padding:20px;
+	width: 100%;
 }
 
-img{
-	margin:5px;
-	padding:5px;
-}
-
-bdo{
-	background-color: #333333;
-	margin:15px;
-	color: white;
-	font-size:120%;
-	padding: 5px;
-	transition-duration:0.8s;
-
-}
-bdo:hover{
-	background-color: #111111;
-	transition-duration:0.5s;
+.png {
+	padding: 15px 25px;
+	align: center;
 }
