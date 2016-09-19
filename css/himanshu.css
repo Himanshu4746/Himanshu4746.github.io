@@ -34,7 +34,7 @@ a.ane {
 }
 
 #NaviBar {
-	width:100%;
+/* 	width:100%; */
 	text-align:center;
     background-color: #333333;
 	padding:0px;
@@ -62,7 +62,7 @@ footer#ftr {
 	/* position:absolute; */
 	/* top: 100%; */
 	padding:20px;
-	width: 100%;
+	/* width: 100%; */
 }
 
 .png {
