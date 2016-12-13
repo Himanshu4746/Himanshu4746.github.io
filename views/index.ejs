@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% include templates/header.ejs %>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %>'s website!</p>
+    <form method="post" action="/">
+      <input name="userid" placeholder="userid">
+      <input name="password" placeholder="password">
+      <input type="submit">
+    </form>
+    <% include templates/footer.ejs %>
+  </body>
+</html>
