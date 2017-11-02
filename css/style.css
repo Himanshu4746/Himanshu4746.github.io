@@ -64,7 +64,13 @@ body {
   margin: 0px 6px;
   opacity: 0.6;
 }
-
+.devicons img{
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 5px;
+}
 .firstinfo {
   flex-direction: row;
   z-index: 2;
@@ -91,13 +97,6 @@ body {
   color: #5A5A5A;
   line-height: 1.2;
   font-style: initial;
-}
-.devicons img{
-  top: 10px;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 5px;
 }
 @keyframes animatop {
   0% {
