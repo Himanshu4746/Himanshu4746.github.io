@@ -62,9 +62,10 @@ body {
 .badgescard span {
   font-size: 1.6em;
   margin: 0px 6px;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
 }
-.devicons img{
+/*styling for svg icons*/
+.devicons span{
   top: 10px;
   width: 30px;
   height: 30px;
@@ -128,4 +129,14 @@ body {
     top: -24px;
     left: -78px;
   }
+}
+
+/* SVG hover effect */
+#github, #linkedin, #stackoverflow, #facebook, #instagram, #twitter  {
+  stroke: rgb(135, 135, 135);
+  fill: rgb(135, 135, 135);
+}
+#github:hover, #linkedin:hover, #stackoverflow:hover, #facebook:hover, #instagram:hover, #twitter:hover {
+  stroke: rgba(1,150,136,1);
+  fill: rgba(1,150,136,1);
 }
