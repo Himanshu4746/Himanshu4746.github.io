@@ -12,10 +12,10 @@
   "icons": [{
     "src": "icons/favicon.png",
     "sizes": "200x200",
-    "type": "image/png",
+    "type": "image/png"
   }, {
     "src": "icons/profile.jpg",
     "sizes": "120x120",
-    "type": "image/jpg",
-  }],
+    "type": "image/jpg"
+  }]
 }
