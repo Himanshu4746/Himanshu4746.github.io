@@ -90,12 +90,12 @@ body {
 }
 .firstinfo .profileinfo h3 {
   font-size: 1.2em;
-  color: #009688;
+  color: #375B5D;
   font-style: bold;
 }
 .firstinfo .profileinfo p.bio {
   padding: 10px 0px;
-  color: #5A5A5A;
+  color: #375B5D;
   line-height: 1.2;
   font-style: initial;
 }
