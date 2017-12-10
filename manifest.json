@@ -1,0 +1,21 @@
+{
+  "name": "Himanshu",
+  "short_name": "Himanshu",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#009688",
+  "description": "Profile Card",
+  "lang": "en-US",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "theme_color": "#009688",
+  "icons": [{
+    "src": "icons/favicon.png",
+    "sizes": "200x200",
+    "type": "image/png",
+  }, {
+    "src": "icons/profile.jpg",
+    "sizes": "120x120",
+    "type": "image/jpg",
+  }],
+}
