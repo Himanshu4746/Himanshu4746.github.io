@@ -2,9 +2,9 @@ var cacheName = 'HimanshuCache';
 var filesToCache = [
   '/',
   '/index.html',
-  '/css/cdn1.css',
-  '/css/cdn2.css',
   '/css/style.css',
+  '/css/bootstrap.min.css',
+  '/css/font.woff2',
   '/icons/favicon.png',
   '/icons/profile.jpg',
   '/icons/favicon_512x512.png'
