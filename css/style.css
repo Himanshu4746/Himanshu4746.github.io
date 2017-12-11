@@ -1,15 +1,22 @@
 /*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400";*/
+/*body {
+  margin: 0;
+  padding: 10px;
+}*/
 body, .badgescard, .firstinfo {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-html {
-  height: 100%;
+html, body {
+    padding: 2px;
+    margin: 0;
+    height: 100%;
 }
 
 body {
+  /*margin: 10px 20px 10px 20px;*/
   font-family: sans-serif;
   width: 100%;
   min-height: 100%;
@@ -18,19 +25,29 @@ body {
   overflow: hidden;
 }
 
-*, *:before, *:after {
+/**, *:before, *:after {
   box-sizing: border-box;
-}
+}*/
 
+h1 {
+  font-family: 'Della Respira', serif;
+}
+.main {
+  padding: 10px;
+}
 .content {
   position: relative;
+  text-align: end;
   animation: animatop 0.9s cubic-bezier(0.425, 1.14, 0.47, 1.125) forwards;
 }
 
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
 .card {
-  width: 500px;
-  min-height: 100px;
-  padding: 20px;
+  max-height: 200px;
   border-radius: 3px;
   background-color: white;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -42,21 +59,23 @@ body {
   display: block;
   width: 190px;
   height: 300px;
-  background: cadetblue;
+  background: #314049;
   position: absolute;
   animation: rotatemagic 0.75s cubic-bezier(0.425, 1.04, 0.47, 1.105) 1s both;
 }
 
 .badgescard {
-  padding: 10px 20px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #ECECEC;
-  width: 480px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -17px;
+/*  width: 380px;
   position: absolute;
-  z-index: -1;
   left: 10px;
   bottom: 10px;
+*/  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: -1;
   animation: animainfos 0.5s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.75s forwards;
 }
 .badgescard span {
@@ -76,21 +95,26 @@ body {
   flex-direction: row;
   z-index: 2;
   position: relative;
+  word-wrap: break-word;
 }
 .firstinfo img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  padding: 5px;
+  margin-left:20px;
 }
 .firstinfo .profileinfo {
   padding: 0px 20px;
 }
 .firstinfo .profileinfo h1 {
+  margin-top: 15px;
   font-size: 1.8em;
 }
 .firstinfo .profileinfo h3 {
   font-size: 1.2em;
   color: #375B5D;
+  margin: 0;
   font-style: bold;
 }
 .firstinfo .profileinfo p.bio {
@@ -137,6 +161,15 @@ body {
   fill: rgb(135, 135, 135);
 }
 #github:hover, #linkedin:hover, #stackoverflow:hover, #facebook:hover, #instagram:hover, #twitter:hover {
-  stroke: rgba(1,150,136,1);
-  fill: rgba(1,150,136,1);
+  stroke: #009688;
+  fill: #009688;
+}
+
+/* font */
+@font-face {
+  font-family: 'Della Respira';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Della Respira'), local('DellaRespira-Regular'), url(font.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
