@@ -98,7 +98,7 @@ h1 {
   word-wrap: break-word;
 }
 .firstinfo img {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 120px;
   height: 120px;
   padding: 5px;
