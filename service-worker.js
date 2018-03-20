@@ -7,7 +7,10 @@ var filesToCache = [
   '/css/font.woff2',
   '/icons/favicon.png',
   '/icons/profile.jpg',
-  '/icons/favicon_512x512.png'
+  '/icons/favicon_512x512.png',
+  '/resume/background.jpg',
+  '/resume/GFSDidot-Regular.ttf',
+  '/resume/index.html'
 ];
 
 self.addEventListener('install', function(e) {
